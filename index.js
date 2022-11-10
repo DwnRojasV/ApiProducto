@@ -33,7 +33,9 @@ app.get(pathAdmin,
 );
 app.post(pathAdmin,
         (req, res)=>{
-            console.log("Recibimos peticion ")
+            console.log("Recibimos peticion ");
+            consolo.log(req.body);
+            let producto = productoService.productosSetExport(req.body)
         }
     )
 
