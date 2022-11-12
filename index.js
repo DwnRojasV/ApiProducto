@@ -18,7 +18,7 @@ const pathAdmin = pathName+"admin";
 
 app.get(pathName,
     (req, res)=>{
-        console.log("Recibimos peticion");
+        console.log("Se recibió la petición GET");
         console.log(req);
         res.send(productoService.productosGetExport());
     }
@@ -26,21 +26,27 @@ app.get(pathName,
 
 app.get(pathAdmin,
     (req, res)=>{
-        console.log("Recibimos la peticion");
+        console.log("Se recibió la petición GET");
         console.log(req);
         res.send(productoService.productosGetExport());
     }
 );
 app.post(pathAdmin,
         (req, res)=>{
-            console.log("Recibimos peticion ");
-            consolo.log(req.body);
-            let producto = productoService.productosSetExport(req.body)
+            console.log("Se recibió la petición POST");
+            console.log(req.body);
+            let productos = productoService.productosSetExport(req.body)
+            res.send({"mensaje": "Producto Guardado", "productos": productos})
         }
     )
-
-
-
+app.delete(pathAdmin,
+    (req, res)=>{
+        console.log("Se recibió la petición DELETE")
+        let id = req.query.id;
+        let productos = productoService.productosDeleteExport(id);
+        res.send({"mensaje":"Producto eliminado","productos":productos})
+    }
+    )
 
 app.listen(port,
     ()=>{
