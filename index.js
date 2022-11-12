@@ -1,6 +1,6 @@
-const express = rquire("express");
+const express = require("express");
 const cors = require("cors");
-const body_parse = require("body-parse");
+const body_parse = require("body-parser");
 const path = require("path");
 
 //se importa los servicios
