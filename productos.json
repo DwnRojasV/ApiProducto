@@ -5,7 +5,7 @@
         "nombre": "Hamburguesa Mercurio",
         "descripcion": "S150 Gr de carne mixta enrollada en queso chedar con cebolla caramelizada, verduras, pan con ajonjoli, tostones de plátano. Salsas de la casa",
         "precio": 15000,
-        "cantidad": 1
+        "cantidad": 100
     },
     {
         "id": "2",
@@ -13,7 +13,7 @@
         "nombre": "Hamburguesa Venus",
         "descripcion": "S150 Gr de carne mixta enrollada en queso chedar con cebolla caramelizada, verduras, pan con ajonjoli, tostones de plátano. Salsas de la casa",
         "precio": 12000,
-        "cantidad": 1
+        "cantidad": 100
     },
     {
         "id": "3",
@@ -21,7 +21,7 @@
         "nombre": "Hamburguesa Tierra",
         "descripcion": "S150 Gr de carne mixta enrollada en queso chedar con cebolla caramelizada, verduras, pan con ajonjoli, tostones de plátano. Salsas de la casa",
         "precio": 10000,
-        "cantidad": 1
+        "cantidad": 100
     },
     {
         "id": "4",
@@ -29,7 +29,7 @@
         "nombre": "Hamburguesa Marte",
         "descripcion": "S150 Gr de carne mixta enrollada en queso chedar con cebolla caramelizada, verduras, pan con ajonjoli, tostones de plátano. Salsas de la casa",
         "precio": 11000,
-        "cantidad": 1
+        "cantidad": 100
     },
     {
         "id": "5",
@@ -37,7 +37,7 @@
         "nombre": "Hamburguesa Jupiter",
         "descripcion": "S150 Gr de carne mixta enrollada en queso chedar con cebolla caramelizada, verduras, pan con ajonjoli, tostones de plátano. Salsas de la casa",
         "precio": 13900,
-        "cantidad": 1
+        "cantidad": 100
     },
     {
         "id": "6",
@@ -45,7 +45,7 @@
         "nombre": "Hamburguesa Saturno",
         "descripcion": "S150 Gr de carne mixta enrollada en queso chedar con cebolla caramelizada, verduras, pan con ajonjoli, tostones de plátano. Salsas de la casa",
         "precio": 14500,
-        "cantidad": 1
+        "cantidad": 100
     },
     {
         "id": "7",
@@ -53,7 +53,7 @@
         "nombre": "Hamburguesa Urano",
         "descripcion": "S150 Gr de carne mixta enrollada en queso chedar con cebolla caramelizada, verduras, pan con ajonjoli, tostones de plátano. Salsas de la casa",
         "precio": 12000,
-        "cantidad": 1
+        "cantidad": 100
     },
     {
         "id": "8",
@@ -61,6 +61,6 @@
         "nombre": "Hamburguesa Neptuno",
         "descripcion": "S150 Gr de carne mixta enrollada en queso chedar con cebolla caramelizada, verduras, pan con ajonjoli, tostones de plátano. Salsas de la casa",
         "precio": 11500,
-        "cantidad": 1
+        "cantidad": 100
     }
 ]

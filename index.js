@@ -31,6 +31,14 @@ app.get(pathAdmin,
         res.send(productoService.productosGetExport());
     }
 );
+app.get(pathName,
+    (req, res) => {
+        console.log("Se recibió la peticion GET");
+        console.log(req);
+        let id = req.query.id
+        res.send(productoService.productosGetIdExport(id))
+    }
+)
 app.post(pathAdmin,
     (req, res) => {
         console.log("Se recibió la petición POST");
@@ -48,13 +56,22 @@ app.delete(pathAdmin,
     }
 )
 app.patch(pathName + "cantidad",
-    (req, res)=>{
+    (req, res) => {
         console.log("productos en carrito");
         console.log(req.body);
         let id = req.query.id;
         res.send(productoService.cantidadReservadaExport(req.body, id))
     }
 )
+app.get(pathName + "carrito/productos",
+    (req, res) => {
+        console.log("Se recibió la peticion de la lista de productos")
+        console.log(req.query)
+        let lista = productoService.listarByIdExport(req.query)
+        res.send(lista)
+    }
+)
+
 app.listen(port,
     () => {
         console.log("Subio el app productos en el puerto " + port)
